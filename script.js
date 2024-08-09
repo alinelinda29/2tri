@@ -6,32 +6,6 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
-        alternativas: [
-            {
-                texto: "Isso é assustador!",
-                afirmacao: "afirmação"
-            },
-            {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "afirmação"
-            }
-        ]
-    },
-    {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
-        alternativas: [
-            {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "afirmação"
-            },
-            {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "afirmação"
-            }
-        ]
-    },
-    {
         enunciado: "Qual é a principal diferença entre o vôlei de quadra e o vôlei de praia em termos de regras e ambiente de jogo?",
         alternativas: [
             {
@@ -40,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "B) O vôlei de praia é jogado em uma quadra coberta com seis jogadores em cada equipe,enquanto o vôlei de quadra é jogado ao ar livre com apenas dois jogadores por equipe.",
-                afirmacao: "Isso está incorreto, pois o vôlei de praia é jogado ao ar livre com apenas dois jogadores por equipe, e o vôlei de quadra é jogado em ambientes fechados com seis jogadores em cada equipe.)"
+                afirmacao: "Isso está incorreto, pois o vôlei de praia é jogado ao ar livre com apenas dois jogadores por equipe, e o vôlei de quadra é jogado em ambientes fechados com seis jogadores em cada equipe."
             }
         ]
     },
